@@ -5,7 +5,7 @@
 3. Merge conflicts
 4. Viewing logs
 
-#### In addition, we will also cover GitHub project management practices, such as:
+### In addition, we will also cover GitHub project management practices, such as:
 
 1. Pull Requests
 2. Code Review
