@@ -1,0 +1,11 @@
+{
+  "name": "adv-git-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Scorpio750/git-mgmt-ex.git",
+  "author": "Patrick Wu <scorpio7500@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
