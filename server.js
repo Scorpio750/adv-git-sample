@@ -1,12 +1,8 @@
-'use strict';
 
 const express = require('express');
+
 const app = express();
+const PORT = process.env.NODE_ENV || 8080;
 
-app.get('/', (req, res) => {
-  res.send('sample html');
-});
-
-app.listen(9000, () => {
-  console.log('Listening on port 9000');
-});
+app.use(express.static('public/views'));
+app.use(express.static('public'));
